@@ -30,7 +30,7 @@ const Summary = () => {
   const onCheckout = async () => {
     const response = await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/checkout`, {
       productIds: items.map((item) => item._id),
-      phone: '+91 99009 90099',
+      phone: '+919900990099',
       address: 'A275, Some Random Street, Some Random State, 110001',
     });
 
