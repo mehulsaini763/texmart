@@ -22,9 +22,9 @@ const ProductPage = async ({ params }) => {
               <Info data={product} />
             </div>
           </div>
+          <hr className="my-10" />
+          <ProductList title="Related Items" items={suggestedProducts} />
         </div>
-        <hr className="my-10" />
-        <ProductList title="Related Items" items={suggestedProducts} />
       </Conatiner>
     </div>
   );

@@ -11,7 +11,7 @@ const HomePage = async () => {
   const products = (await getProducts({ isFeatured: true })).data;
   return (
     <Conatiner>
-      <div className="space-y-10 pb-10">
+      <div className="space-y-10">
         <Billboard data={billboards} />
       </div>
       <div className="flex flex-col gap-y-8 px-4 sm:px-6 lg:px-8">
