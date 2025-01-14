@@ -36,10 +36,9 @@ const Menu = ({ data }) => {
           <DrawerDescription>
             <div className="flex gap-4 py-4 items-center justify-center">
               {routes.map((route) => (
-                <DrawerClose>
+                <DrawerClose key={route.href}>
                   <Button
                     onClick={() => router.push(route.href)}
-                    key={route.href}
                     className={cn(
                       `text-sm font-medium transition-colors px-4 py-2 rounded-full `,
                       !route.active && 'bg-white text-neutral-700 border border-neutral-700',
