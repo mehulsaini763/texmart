@@ -32,7 +32,7 @@ An intuitive and responsive e-commerce platform with essential features for a se
 
 - Clean and simple UI optimized for devices of all sizes, using the shadcn UI library.
 
-| ![Responsive UI](/public/screenshots/responsive-home.jpg) | ![Responsive UI](/public/screenshots/responsive-category.jpg) | ![Responsive UI](/public/screenshots/responsive-product.jpg) | ![Responsive UI] (/public/screenshots/responsive-checkout.jpg) |
+| ![Responsive UI](/public/screenshots/responsive-home.jpg) | ![Responsive UI](/public/screenshots/responsive-category.jpg) | ![Responsive UI](/public/screenshots/responsive-product.jpg) | ![Responsive UI](/public/screenshots/responsive-checkout.jpg) |
 | --------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------ | -------------------------------------------------------------- |
 
 ---
